@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><defs><style>.cls-1{fill:#fff;}.cls-2{fill:#fbb03b;}</style></defs><g id="Background"><rect class="cls-1" width="1920" height="1080"/></g><g id="Center"><polygon class="cls-2" points="818.84 505.5 960 261 1101.16 505.5 818.84 505.5"/><path d="M960,262l140.3,243h-280.59l140.3-243M960,260l-142.03,246h284.06l-142.03-246h0Z"/></g><g id="Left"><polygon class="cls-2" points="677.15 751.92 818.31 507.42 959.47 751.92 677.15 751.92"/><path d="M818.31,508.42l140.3,243h-280.59l140.3-243M818.31,506.42l-142.03,246h284.06l-142.03-246h0Z"/></g><g id="Right"><polygon class="cls-2" points="961.15 751.92 1102.31 507.42 1243.47 751.92 961.15 751.92"/><path d="M1102.31,508.42l140.3,243h-280.59l140.3-243M1102.31,506.42l-142.03,246h284.06l-142.03-246h0Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+	<defs>
+		<style>.cls-1{fill:#fff;}.cls-2{fill:#fbb03b;}</style>
+	</defs>
+	<g id="Background">
+		<rect class="cls-1" width="1920" height="1080"/>
+	</g>
+	<g id="C">
+		<polygon class="cls-2" points="960 260 817.97 506 1102.03 506 960 260"/>
+	</g>
+	<g id="T">
+		<polygon class="cls-2" points="811.31 515.42 669.28 761.42 953.34 761.42 811.31 515.42"/>
+	</g>
+	<g id="K">
+		<polygon class="cls-2" points="1102.31 515.42 960.28 761.42 1244.34 761.42 1102.31 515.42"/>
+	</g>
+</svg>
