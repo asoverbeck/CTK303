@@ -1,0 +1,62 @@
+#tripleforce {
+    position: center;
+}
+
+#Background {
+    display: none;
+}
+
+#C {
+    animation: cfade 2.0s;
+}
+
+@keyframes cfade {
+    0% {
+        transform: translate(0, -400px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+#T {
+    animation: tfade 2.0s;
+    transform-origin: center;
+}
+
+@keyframes tfade {
+    0% {
+        transform: rotate(-720deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+#K {
+    animation: kfade 2.0s;
+    transform-origin: right top;
+}
+
+@keyframes kfade {
+    0% {
+        transform: scale(0.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+}
+
+#tripleforce {
+    width: 500px;
+    display: block;
+    transition: transform .25s linear;
+    transform-origin: left top;
+}
+
+    #tripleforce:hover {
+        transform: scale(1.1);
+    }
