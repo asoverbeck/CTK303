@@ -27,15 +27,18 @@ main audio {
 }
 
 .mainimg {
-  margin-left: 500px;
-  padding: 10px;
-  width: 140px;
-  height: 250px;
-  float: left;
+    margin-left: 500px;
+    margin-bottom: 1rem;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    float: left;
 }
 
 .maintext {
-  margin-right: 500px;
+    margin-right: 500px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 .fancybox {
@@ -56,8 +59,12 @@ main audio {
 }
 
 nav {
-  grid-column: span 12;
-  text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 nav ul {
@@ -101,4 +108,40 @@ footer {
 
 footer a {
   font-size: 50px;
+}
+
+@media all and (min-width: 30rem) {
+    h1 {
+        color: blue;
+    }
+    nav {
+        grid-template-columns: repeat(4,1fr)
+    }
+}
+
+@media all and (min-width: 50rem) {
+    h1 {
+        color: red;
+        padding-bottom: .1rem;
+    }
+    #mainimg {
+        width: 70%;
+        float: right;
+    }
+    nav {
+        width: 30%;
+        grid-template-columns: 1fr;
+    }
+    nav a {
+        margin-right: 1rem;
+    }
+    main {
+        clear: both;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 2rem;
+    }
+    body {
+        max-width: 960px;
+        margin: 0rem auto;
+    }
 }
